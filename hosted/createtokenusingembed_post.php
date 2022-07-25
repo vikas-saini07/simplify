@@ -4,7 +4,7 @@
 <script type="text/javascript" src="https://www.simplify.com/commerce/simplify.pay.js"></script>
 <link rel="stylesheet" type="text/css" href="css/hostedchkout/style.css">
 
-</head>
+
 
 
 <script>
@@ -61,6 +61,7 @@
         // TODO: Handle error
     }
 </script>
+</head>
 <body>
 <style>
 #simplify-checkout-embed-frame{
