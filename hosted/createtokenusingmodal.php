@@ -6,16 +6,16 @@
 
 <form class="form" action="createtokenusingmodal_post.php" method="post">
 <ul class="form-style">
-<li><label>Public Key<span class="required">*</span></label><input type="text" name="publickey" value=""></li>
-<li><label>Private Key<span class="required">*</span></label><input type="text" name="privatekey" value=""></li>
+<li><label>Public Key<span class="required">*</span></label><input type="text" name="pubkey" value=""></li>
+<li><label>Private Key<span class="required">*</span></label><input type="text" name="pvtkey" value=""></li>
 <li><label>Full Name <span class="required">*</span></label><input type="text" name="name" value=""></li>
-<li><label>Card Number <span class="required">*</span></label><input type="number" name="cardnumber" value="5555555555554444"></li>
-<li><label>Expiry Month <span class="required">*</span></label><input type="number" name="expMonth" value=01></li>
-<li><label>Expiry Year <span class="required">*</span></label><input type="number" name="expYear" value=39></li>
-<li><label>CVC <span class="required">*</span></label><input type="number" name="cvc" value=100></li>
-<li><label>Address City <span class="required">*</span></label><input type="text" name="addressCity" value="Brisbane"></li>
+<li><label>Card Number <span class="required">*</span></label><input type="number" name="cardnum" value="5555555555554444"></li>
+<li><label>Expiry Month <span class="required">*</span></label><input type="number" name="expmonth" value=01></li>
+<li><label>Expiry Year <span class="required">*</span></label><input type="number" name="expyear" value=39></li>
+<li><label>CVC <span class="required">*</span></label><input type="number" name="cardcvc" value=100></li>
+<li><label>Address City <span class="required">*</span></label><input type="text" name="addcity" value="Brisbane"></li>
 <li><label>Address State <span class="required">*</span></label>
-<select name="AddressState">
+<select name="addstate">
   <option value="Select"></option>
   <option value="QLD">QLD</option>
   <option value="NSW">NSW</option>
