@@ -2,10 +2,10 @@
 $method = "";
 $method = $_POST['method'];
 if ($method == 'createtokenusingmodal') {
-header('Location: ./createtokenusingmodal.php');
+header('Location: hosted/createtokenusingmodal.php');
 }
 
 if ($method == 'createtokenusingembed') {
-header('Location: ./createtokenusingembed.php');
+header('Location: hosted/createtokenusingembed.php');
 }
 ?>
