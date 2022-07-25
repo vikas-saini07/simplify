@@ -14,7 +14,8 @@
 <li><label>Expiry Year <span class="required">*</span></label><input type="number" name="expyear" value=39></li>
 <li><label>CVC <span class="required">*</span></label><input type="number" name="cardcvc" value=100></li>
 <li><label>Currency <span class="required">*</span></label><input type="text" name="currency" value="AUD"></li>
-<li><label>Amount <span class="required">*</span></label><input type="number" name="amount" value="1"></li>
+<li><label>Amount <span class="required">*</span></label><input type="number" name="desc" value="1"></li>
+<li><label>Description<span class="required">*</span></label><input type="text" name="pubkey" value=""></li>
 <li><label>Address City <span class="required">*</span></label><input type="text" name="addcity" value="Brisbane"></li>
 <li><label>Address State <span class="required">*</span></label>
 <select name="addstate">
