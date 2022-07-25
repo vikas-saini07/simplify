@@ -30,7 +30,7 @@
             var pvtkey =  "<?php echo $_POST['pvtkey'] ?>";
             console.log(response);
             console.log("Card Token: " + cardToken);
-            var ref = "id" + Math.random().toString(16).slice(2)
+            var ref = "<?php echo $_POST['ref'] ?>"
             // TODO: Pass token to the server & use Simplify's API to make a payment
                         completePayload = {
                                 token: response.cardToken,
