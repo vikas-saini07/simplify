@@ -23,9 +23,9 @@
 <label>Simplify<span class="simplify"></span>
 <select name="method">
   <option value="Select"></option>
-  <option value="createtokenusingmodal">Create Token using Modal</option>
-  <option value="createtokenusingembed">Create Token using Embed</option>
-  <option value="createtokenusingdirect">Create Token using Embed</option>
+  <option value="createtokenusingmodal">Create Token and Payment using Modal</option>
+  <option value="createtokenusingembed">Create Token and Payment using Embed</option>
+  <option value="createtokenusingdirect">Create Token and Payment using Direct API</option>
   </select>
 <input type="submit"></label>
 </div></form>
