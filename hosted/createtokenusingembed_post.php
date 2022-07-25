@@ -36,7 +36,7 @@
                         };
 
                         $.post('../directapi/createpayment_post.php', completePayload, function (completeResponse, status) {
-                                var response = $.parseJSON(completeResponse);
+                               
                                  console.log("completeResponse: " + completeResponse);
                         });
                         hostedPayments.enablePayBtn();
