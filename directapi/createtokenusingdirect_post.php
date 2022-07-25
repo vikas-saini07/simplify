@@ -21,6 +21,6 @@ $cardToken = Simplify_CardToken::createCardToken(array(
         )
 ));
 
-print_r($cardToken);
+echo $cardToken;
 
 ?>
