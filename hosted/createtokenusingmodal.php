@@ -4,7 +4,7 @@
 </head>
 <body>
 
-<form class="form" action="createtokenusingmodal_post.php" method="post">
+<form class="form" action="createtokenusingembed_post.php" method="post">
 <ul class="form-style">
 <li><label>Public Key<span class="required">*</span></label><input type="text" name="pubkey" value=""></li>
 <li><label>Private Key<span class="required">*</span></label><input type="text" name="pvtkey" value=""></li>
