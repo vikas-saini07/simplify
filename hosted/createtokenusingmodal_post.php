@@ -25,21 +25,27 @@
         function(response) {
             var cardToken = response.cardToken;
             var amount = response.amount;
-            var Currency = "AUD";
+            var currency = "<?php echo $_POST['currency'] ?>";
             var pubkey =  "<?php echo $_POST['pubkey'] ?>";
             var pvtkey =  "<?php echo $_POST['pvtkey'] ?>";
             console.log(response);
             console.log("Card Token: " + cardToken);
+            var ref = "id" + Math.random().toString(16).slice(2)
             // TODO: Pass token to the server & use Simplify's API to make a payment
                         completePayload = {
                                 token: response.cardToken,
                                 name: "<?php echo $_POST['name'] ?>",
                                 email: "<?php echo $_POST['email'] ?>",
+                                ref: ref,
+                                amount: amount,
+                                desc: "<?php echo $_POST['desc'] ?>",
+                                currency: currency
                                 pubkey: pubkey,
                                 pvtkey: pvtkey
+                               
                         };
 
-                        $.post('createpayment_post.php', completePayload, function (completeResponse, status) {
+                        $.post('../directapi/createpayment_post.php', completePayload, function (completeResponse, status) {
                                 var response = $.parseJSON(completeResponse);
                                 console.log(response);
                         });
