@@ -8,23 +8,12 @@
 <ul class="form-style">
 <li><label>Public Key<span class="required">*</span></label><input type="text" name="pubkey" value=""></li>
 <li><label>Private Key<span class="required">*</span></label><input type="text" name="pvtkey" value=""></li>
-<li><label>Full Name <span class="required">*</span></label><input type="text" name="name" value=""></li>
-<li><label>Card Number <span class="required">*</span></label><input type="number" name="cardnum" value="5555555555554444"></li>
-<li><label>Expiry Month <span class="required">*</span></label><input type="number" name="expmonth" value=01></li>
-<li><label>Expiry Year <span class="required">*</span></label><input type="number" name="expyear" value=39></li>
-<li><label>CVC <span class="required">*</span></label><input type="number" name="cardcvc" value=100></li>
-  <li><label>Currency <span class="required">*</span></label><input type="text" name="currency" value="AUD"></li>
-<li><label>Address City <span class="required">*</span></label><input type="text" name="addcity" value="Brisbane"></li>
-<li><label>Address State <span class="required">*</span></label>
-<select name="addstate">
-  <option value="Select"></option>
-  <option value="QLD">QLD</option>
-  <option value="NSW">NSW</option>
-  <option value="WA">WA</option>
-  <option value="VIC">VIC</option>
-  <option value="TAS">TAS</option>
-  <option value="SA">SA</option>
-</select></li>
+<li><label>Reference <span class="required">*</span></label><input type="text" name="ref" value=""></li>
+<li><label>Currency <span class="required">*</span></label><input type="text" name="currency" value="AUD"></li>
+<li><label>Name<span class="required">*</span></label><input type="text" name="name" value=""></li>
+<li><label>Description<span class="required">*</span></label><input type="text" name="desc" value=""></li>
+<li><label>Email <span class="required">*</span></label><input type="email" name="email" value="test@testtest0077.com"></li>
+<li><label>Amount<span class="required">*</span></label><input type="number" name="amount" value=""></li>
 <input type="submit">
 </ul>
 </form>
@@ -36,6 +25,7 @@
   <option value="Select"></option>
   <option value="createtokenusingmodal">Create Token using Modal</option>
   <option value="createtokenusingembed">Create Token using Embed</option>
+  <option value="createtokenusingdirect">Create Token using Embed</option>
   </select>
 <input type="submit"></label>
 </div></form>
