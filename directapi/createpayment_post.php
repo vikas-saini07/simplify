@@ -15,9 +15,7 @@ $payment = Simplify_Payment::createPayment(array(
 		'order.customerName' => $_POST['name'],
         'token' => $_POST['token']
 ));
- 
-if ($payment->paymentStatus == 'APPROVED') {
-    echo "Payment approved\n";
-}
+print_r($payment);
+
 
 ?>
