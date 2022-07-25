@@ -15,6 +15,7 @@
 <div id="display"></div>
 <iframe class="myiframe" name="Simplify Form"
         data-sc-key="<?php echo $_POST['pubkey'] ?>">
+        data-amount="<?php echo $_POST['amount'] ?>">
 </iframe>
 
 <script>
