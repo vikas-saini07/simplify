@@ -5,18 +5,7 @@
 <link rel="stylesheet" type="text/css" href="css/hostedchkout/style.css">
 
 </head>
-<body>
-<style>
-#simplify-checkout-embed-frame{
-    height: 605px; // Value may need adjusting per your requirement
-    overflow: hidden;
-}
-</style>
-<div id="display"></div>
-<iframe class="myiframe" name="Simplify Form"
-        data-sc-key="<?php echo $_POST['pubkey'] ?>",
-        data-amount="<?php echo $_POST['amount'] ?>"
-</iframe>
+
 
 <script>
   /**
@@ -72,6 +61,17 @@
         // TODO: Handle error
     }
 </script>
-
+<body>
+<style>
+#simplify-checkout-embed-frame{
+    height: 605px; // Value may need adjusting per your requirement
+    overflow: hidden;
+}
+</style>
+<div id="display"></div>
+<iframe class="myiframe" name="Simplify Form"
+        data-sc-key="<?php echo $_POST['pubkey'] ?>",
+        data-amount="<?php echo $_POST['amount'] ?>"
+</iframe>
 </body>
 </html>
