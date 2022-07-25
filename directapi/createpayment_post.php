@@ -10,6 +10,9 @@ $payment = Simplify_Payment::createPayment(array(
         'amount' => $_POST['amount'],
         'description' => $_POST['desc'],
         'currency' => $_POST['currency'],
+		'order.customerEmail' => $_POST['email'],
+		'card.name' => $_POST['name'],
+		'order.customerName' => $_POST['name'],
         'token' => $_POST['token']
 ));
  
