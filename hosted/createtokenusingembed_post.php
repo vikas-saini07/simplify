@@ -29,7 +29,7 @@
                                 ref: ref,
                                 amount: amount,
                                 desc: "<?php echo $_POST['desc'] ?>",
-                                currency: currency
+                                currency: currency,
                                 pubkey: pubkey,
                                 pvtkey: pvtkey
                                
