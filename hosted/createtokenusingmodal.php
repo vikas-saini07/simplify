@@ -1,6 +1,6 @@
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="css/tokencreate_style.css">
+<link rel="stylesheet" type="text/css" href="../css/tokencreate_style.css">
 </head>
 <body>
 
