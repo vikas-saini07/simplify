@@ -13,7 +13,7 @@
 <li><label>Expiry Month <span class="required">*</span></label><input type="number" name="expmonth" value=01></li>
 <li><label>Expiry Year <span class="required">*</span></label><input type="number" name="expyear" value=39></li>
 <li><label>CVC <span class="required">*</span></label><input type="number" name="cardcvc" value=100></li>
-  <li><label>Currency <span class="required">*</span></label><input type="number" name="currency" value=AUD></li>
+  <li><label>Currency <span class="required">*</span></label><input type="text" name="currency" value="AUD"></li>
 <li><label>Address City <span class="required">*</span></label><input type="text" name="addcity" value="Brisbane"></li>
 <li><label>Address State <span class="required">*</span></label>
 <select name="addstate">
