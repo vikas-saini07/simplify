@@ -15,7 +15,7 @@ $payment = Simplify_Payment::createPayment(array(
 		'order.customerName' => $_POST['name'],
         'token' => $_POST['token']
 ));
-print_r($payment);
+echo $payment;
 
 
 ?>
