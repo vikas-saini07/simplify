@@ -18,7 +18,7 @@
 </ul>
 </form>
 
-<form class="form" action="simplify.php" method="post">
+<form class="form" action="../simplify.php" method="post">
 <div class="form-style">
 <label>Simplify<span class="simplify"></span>
 <select name="method">
