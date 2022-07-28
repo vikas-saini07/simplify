@@ -36,11 +36,11 @@
                         };
 
                         $.post('../directapi/createpayment_post.php', completePayload, function (completeResponse, status) {
-                                 var response = JSON.parse(completeResponse);
+                               //  var response = JSON.parse(completeResponse);
                                 // var responsenew = JSON.stringify(completeResponse);
                                 // console.log("completeResponse: " + completeResponse);
                                  // console.log("responsenew: " + responsenew);
-                                 console.log("response: " + response);
+                                 console.log("response: " + completeResponse);
                         });
                         hostedPayments.enablePayBtn();
 
