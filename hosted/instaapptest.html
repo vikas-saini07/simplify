@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <title>simplify test</title>
+    <script type="text/javascript" src="https://www.simplify.com/commerce/simplify.pay.js"></script>
+    <script>
+     SimplifyCommerce.hostedPayments(
+       function(response) {
+         console.log(response)
+       }
+     )
+    </script>
+  </head>
+  <body>
+    <h1>simplify test</h1>
+    <div>
+      <h3>test simplify modal</h3>
+      <button
+        data-sc-key="lvpb_NDQ3YjliZDItZWM5Ny00M2ViLWEwYzAtOTJlNTcwOGM5ODY2"
+        data-name="Simplify TEST Instagram In-APP"
+        data-description="testing for case 05374016"
+        data-reference="8373839393"
+        data-amount="1"
+        data-color="#12B830"
+        data-operation="create.payment"
+      >
+        Buy Now
+      </button>
+    </div>
+  </body>
+</html>
